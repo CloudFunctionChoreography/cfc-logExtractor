@@ -1,0 +1,18 @@
+{
+  "name": "logExtractor",
+  "version": "0.0.1",
+  "description": "Extracts hint executions from OpenWhisk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Buchholz",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.370.0",
+    "file-system": "^2.2.2",
+    "json2xls": "^0.1.2",
+    "openwhisk": "^3.18.0"
+  }
+}
